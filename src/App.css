@@ -1,0 +1,32 @@
+.accordion-item {
+  padding: 10px;
+  margin: 10px;
+  border-left: 3px solid orangered;
+  cursor: pointer;
+  -webkit-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+  box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
+}
+
+.accordion-item:hover{
+  border-left: 3px solid blueviolet;
+  transform: 1s;
+}
+
+.opened{
+  border-left: 3px solid blueviolet;
+  transform: 1s;
+}
+
+.accordion-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  background-color: orangered;
+  color: white;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
